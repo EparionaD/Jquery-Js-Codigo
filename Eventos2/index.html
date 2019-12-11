@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Eventos</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <button type="button" class="btn btn-warning">Desaparece texto</button>
+            </div>
+            <a id ="enlace" href="http://www.google.com.pe">Hazme clic</a>
+        </div>
+        <div class="row mt-4">
+            <div class="col-4" id="padre">
+                <button type="button" class="btn btn-danger" id="hijo">Desaparece texto</button>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-4" id="padre-botones">
+                <button type="button" class="btn btn-danger" id="boton">Boton</button>
+                <button type="button" class="btn btn-danger" id="boton1">Boton1</button>
+                <button type="button" class="btn btn-danger" id="boton2">Boton2</button>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-4" id="caja">
+            </div>
+        </div>
+        <button type="button" class="btn btn-danger" id="foo">Boton2</button>
+    </div>
+    <script src="./jquery.min.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
